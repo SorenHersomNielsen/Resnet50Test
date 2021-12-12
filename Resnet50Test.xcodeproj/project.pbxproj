@@ -13,6 +13,8 @@
 		A22421E52760AC81001B92F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22421E32760AC81001B92F8 /* Main.storyboard */; };
 		A22421E72760AC84001B92F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22421E62760AC84001B92F8 /* Assets.xcassets */; };
 		A22421EA2760AC84001B92F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22421E82760AC84001B92F8 /* LaunchScreen.storyboard */; };
+		A22421F22760AD03001B92F8 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22421F12760AD03001B92F8 /* Extension.swift */; };
+		A22421F42760ADF8001B92F8 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A22421F32760ADF8001B92F8 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A22421E62760AC84001B92F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A22421E92760AC84001B92F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A22421EB2760AC84001B92F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22421F12760AD03001B92F8 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A22421F32760ADF8001B92F8 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		A22421DC2760AC81001B92F8 /* Resnet50Test */ = {
 			isa = PBXGroup;
 			children = (
+				A22421F32760ADF8001B92F8 /* Resnet50.mlmodel */,
 				A22421DD2760AC81001B92F8 /* AppDelegate.swift */,
 				A22421DF2760AC81001B92F8 /* SceneDelegate.swift */,
 				A22421E12760AC81001B92F8 /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				A22421E62760AC84001B92F8 /* Assets.xcassets */,
 				A22421E82760AC84001B92F8 /* LaunchScreen.storyboard */,
 				A22421EB2760AC84001B92F8 /* Info.plist */,
+				A22421F12760AD03001B92F8 /* Extension.swift */,
 			);
 			path = Resnet50Test;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22421F42760ADF8001B92F8 /* Resnet50.mlmodel in Sources */,
 				A22421E22760AC81001B92F8 /* ViewController.swift in Sources */,
 				A22421DE2760AC81001B92F8 /* AppDelegate.swift in Sources */,
 				A22421E02760AC81001B92F8 /* SceneDelegate.swift in Sources */,
+				A22421F22760AD03001B92F8 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
